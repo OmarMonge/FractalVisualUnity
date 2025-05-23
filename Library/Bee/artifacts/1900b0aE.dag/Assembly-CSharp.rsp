@@ -400,6 +400,8 @@
 -analyzer:"F:/Unity/6000.0.35f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"F:/Unity/6000.0.35f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/AdvancedAudioAnalyzer.cs"
+"Assets/AudioManager.cs"
+"Assets/CameraController.cs"
 "Assets/DebugRaymarching.cs"
 "Assets/FullScreenRaymarching.cs"
 -langversion:9.0

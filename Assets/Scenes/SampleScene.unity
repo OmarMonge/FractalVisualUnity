@@ -229,6 +229,7 @@ GameObject:
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
   - component: {fileID: 963194230}
+  - component: {fileID: 963194231}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -323,7 +324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3ce2189bce0b640a9e4beffd650ce2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  raymarchMaterial: {fileID: 2100000, guid: c371355cd23ff284db591de32720390a, type: 2}
+  raymarchMaterial: {fileID: 2100000, guid: eaf6b264cca606844bf300fc19e6fa97, type: 2}
   currentSceneID: 1
   autoAdvanceScenes: 0
   sceneTransitionTime: 30
@@ -340,12 +341,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 97c849d8ba705af478942ba1df9c9158, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  raymarchMaterial: {fileID: 2100000, guid: c371355cd23ff284db591de32720390a, type: 2}
+  raymarchMaterial: {fileID: 2100000, guid: eaf6b264cca606844bf300fc19e6fa97, type: 2}
   enableDebugMode: 1
   testAudioValues: 1
   manualAudioValues: {x: 0.3, y: 0.5, z: 0.7, w: 0.4}
@@ -354,6 +355,25 @@ MonoBehaviour:
   fixedCameraPosition: 1
   fixedPosition: {x: 0, y: 0, z: -25}
   lookAtTarget: {x: 0, y: 0, z: 0}
+--- !u!114 &963194231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12b9469af8bbb534aa0307eec4e13078, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
+  fastMoveSpeed: 30
+  mouseSensitivity: 2
+  smoothTime: 0.1
+  enableMouseLook: 1
+  invertY: 0
+  maxLookAngle: 90
 --- !u!1 &1850390053
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,6 +384,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1850390055}
   - component: {fileID: 1850390054}
+  - component: {fileID: 1850390056}
   m_Layer: 0
   m_Name: something something
   m_TagString: Untagged
@@ -483,6 +504,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 963194228}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1850390056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850390053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65ebd71e986b1314eae48d930c626107, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicClip: {fileID: 8300000, guid: 2fffbe8c538c0004e9a47b675e81e885, type: 3}
+  playOnStart: 1
+  loopMusic: 1
+  masterVolume: 1
+  muteAudio: 0
+  showDebugInfo: 1
+  showAudioWaveform: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

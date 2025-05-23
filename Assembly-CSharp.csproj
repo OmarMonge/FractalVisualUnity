@@ -66,8 +66,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\FullScreenRaymarching.cs" />
+    <Compile Include="Assets\CameraController.cs" />
     <Compile Include="Assets\DebugRaymarching.cs" />
     <Compile Include="Assets\AdvancedAudioAnalyzer.cs" />
+    <Compile Include="Assets\AudioManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fullscreen.shader" />

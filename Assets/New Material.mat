@@ -69,8 +69,8 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _MaxDist: 200
-    - _MaxSteps: 128
+    - _MaxDist: 250
+    - _MaxSteps: 300
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
